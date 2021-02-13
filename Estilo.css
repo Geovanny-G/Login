@@ -1,0 +1,223 @@
+body{
+    font-family: 'Handlee', cursive;
+    font-size: 13pt;
+    background: linear-gradient(#3C3B3F, #605C3C);
+    margin: 0;
+}
+.texto h2{
+    font-family: 'Lobster';
+    padding-top: 20px;
+    color: #ccc;
+}
+.login{
+    font-family: 'handlee' Arial;
+    margin: 6px 8px;
+    padding: 10px;
+}
+/*Logueo de sesion*/
+.formulario{
+    background-color: rgb(47,99,99);
+    background-color: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    padding: ;
+    border-radius: 12px;
+    box-shadow: 0 5px 4px -2px rgba(0,0,0,.4),
+   -2px 8px 6px 1px rgba(0,0,0,.5) ;
+
+}
+h2{
+    font-family: 'Handlee';
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+h2 + p{
+    font-family: 'Lobster';
+    font-size: 16pt;
+    text-align: center;
+    margin: 6px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+form > p > span{
+    border-bottom: 2px solid #B0C4DE;
+    color: #ccc;
+}
+
+.div_input{
+    text-align: center;
+    padding-left: 26px;
+    /*margin-right: 20px;*/
+    
+}
+.div_input p{
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 2px;
+    /*margin: 6px 60px;*/
+}
+
+/* estilo a los input*/
+input[type="text"], .codigo{
+    width: 12rem;
+    border: 2px solid #C0C0C0;
+    background: none;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 6px;
+    transition: all 0.7s;
+    border-radius: 3px;
+}
+
+/* iconos */
+.fa-user-o{
+    position: relative;
+    left: -22px;
+    color: #c0c0c0;
+    font-size: 11pt;
+}
+.fa-key{
+    position: relative ;
+    font-size: 11pt;
+    left: -22px;
+    color: #c0c0c0;
+}
+
+input[type="text"]:focus{
+    width: 14rem;
+    border: 2px solid rgb(0,255,254);
+    background-color: black;
+    font-weight: bold;
+    outline: none;
+    text-align: left;
+    border-radius: 5px;
+    color: agua;
+    margin: auto;
+    margin-top: 13px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    padding: 7px;
+    cursor: pointer;
+    transition: .7s;
+    box-shadow: 0 0 20px 1px rgb(0,255,224);
+}
+
+/*validamos de cuanto caracteres sera
+la contraseña con efectos*/
+.codigo:focus{
+    width: 14rem;
+    border: 2px solid rgb(0,255,254);
+    background-color: #000;
+    outline: none;
+    border-radius: 5px;
+    color: agua;
+    font-weight: bold;
+    padding: 7px;
+    margin: auto;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    transition: .7s;
+    box-shadow: 0 0 20px 1px rgb(0,255,224);
+    
+}
+
+/*input:required{
+    border: 2px solid #C0C0C0;
+    text-align: center;
+    color: white;
+    width: 12rem;
+    margin: auto;
+    padding: 6px;
+    transition: all 0.7s;
+    border-radius: 3px;
+    background: none;
+    box-shadow: none;
+}*/
+
+/*input[type="password"]:valid{
+    width: 14rem;
+    border: 2px solid rgb(0,255,254);
+    background-color: #000;
+    outline: none;
+    border-radius: 5px;
+    color: agua;
+    font-weight: bold;
+    padding: 7px;
+    margin: auto;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    transition: .7s;
+    box-shadow: 0 0 20px 1px rgb(0,255,224);
+    
+}*/
+/*muestra en rojo cuando es invalido*/
+.codigo:focus:invalid{
+    width: 13rem;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    padding: 7px;
+    transition: all .7s;
+    box-shadow: 0 0 20px 1px px;
+    outline: none;
+    box-shadow: 0 0 20px 1px red;
+ }
+ 
+/*input:invalid{
+    width: 13rem;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    padding: 7px;
+    box-shadow: 0 0 20px 1px red;
+
+}*/
+
+/*input:enabled{
+    color: #FFFAFA;
+}*/
+
+/* boton de mostrar contraseña*/
+.div_marcador{
+    font-size: 11pt;
+    /*margin-right: 50px;*/
+    text-align: left;
+    padding-left: 55px;
+    padding-top: 10px;
+}
+
+.div_marcador label{
+    font-family: 'Handlee';
+    color: #988;
+    font-weight: bold;
+}
+
+
+/*boton de ingresar*/
+.div_boton{
+    text-align: right;
+    padding: 15px;
+}
+.boton{
+    background-color: rgba(25,25,112, .5);
+    font-size: 12pt;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 58px;
+    padding: 10px;
+    box-shadow: 0 0 3px 1px rgb(176,196,222) inset;
+}
