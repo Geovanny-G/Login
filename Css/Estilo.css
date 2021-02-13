@@ -3,6 +3,7 @@ body{
     font-size: 13pt;
     background: linear-gradient(#3C3B3F, #605C3C);
     margin: 0;
+    height: 100vh;
 }
 .texto h2{
     font-family: 'Lobster';
